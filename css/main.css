@@ -20,18 +20,22 @@ a {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 120px;
   background-color: #000;
 }
 header .header-icons-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+header .header-icons-container .logo-container {
+  height: 80px;
+}
 header .header-icons-container .logo-container a img {
   height: 80px;
 }
 header .header-icons-container .icons {
   display: flex;
+  height: 80px;
   justify-content: end;
   align-items: center;
   margin-right: 50px;
@@ -46,6 +50,7 @@ header .perfil-link {
   display: flex;
   justify-content: flex-end;
   background-color: #000;
+  height: 40px;
 }
 header .perfil-link a {
   color: #FFF;
@@ -194,6 +199,64 @@ main .all-blogs .blog a:hover {
 }
 main .all-blogs .blog:hover {
   box-shadow: 8px 8px 25px #593622;
+}
+
+main .blog-img {
+  max-width: 980px;
+  margin: 30px auto;
+}
+main .blog-img img {
+  width: 100%;
+}
+main .blog-info {
+  padding: 0 50px 40px;
+}
+main .blog-info-grid {
+  max-width: 980px;
+  margin: auto;
+}
+main .blog-info-grid h3 {
+  border-bottom: 1px solid #cdd2da;
+  padding-bottom: 20px;
+}
+main .blog-info-grid article h1 {
+  font-size: 3.5rem;
+  font-family: "Roboto Condensed", "sans-serif";
+  margin: 20px 0;
+}
+main .blog-info-grid article p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.perfil-info {
+  display: grid;
+  grid-template-columns: 600px auto;
+  background-color: #cdd2da;
+}
+.perfil-info-img {
+  max-width: 600px;
+  margin: 30px 0;
+  margin-left: 100px;
+}
+.perfil-info-img img {
+  width: 100%;
+}
+.perfil-info-desc {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  justify-content: center;
+}
+.perfil-info-desc h1 {
+  font-size: 3.5rem;
+  font-family: "Roboto Condensed", "sans-serif";
+  margin-bottom: 20px;
+}
+.perfil-info-desc p {
+  font-size: 1.8rem;
+  font-family: "Roboto Condensed", "sans-serif";
+  line-height: 2.4rem;
 }
 
 footer {
