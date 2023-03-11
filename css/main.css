@@ -412,6 +412,33 @@ footer .footer-text span {
     grid-template-rows: repeat(6, 1fr);
     margin: 0 10px;
   }
+  main .blog-info {
+    padding: 0 10px 40px;
+  }
+  main .blog-info h1 {
+    text-align: center;
+  }
+  main .perfil-info {
+    margin-top: 40px;
+  }
+  main .perfil-info .content-perfil-info {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  main .perfil-info .content-perfil-info-desc {
+    margin: 0;
+    padding: 0px 10px 20px;
+  }
+  main .perfil-info .content-perfil-info-desc h1 {
+    text-align: center;
+  }
+  main .perfil-proyectos-indiv {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  main .perfil-proyectos-indiv h3 {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
